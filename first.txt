@@ -30,3 +30,10 @@ $ git merge --no-ff -m "merged bug fix 101" issue-101
 
 另一种方式是用git stash pop，恢复的同时把stash内容也删了：
 如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
+
+推送分支，就是把该分支上的所有本地提交推送到远程库。推送时，要指定本地分支，这样，Git就会把该分支推送到远程库对应的远程分支上：
+
+$ git push origin master
+如果要推送其他分支，比如dev，就改成：
+
+$ git push origin dev
