@@ -8,7 +8,22 @@ h23333
 I still like SVN
 git checkout -b dev   == git branch dev   git checkout dev
 git merge dev
-git branch -d dev
+git branch -d
+
+$ mkdir learngit
+$ cd learngit
+$ pwd
+/Users/michael/learngit
+pwd命令用于显示当前目录。在我的Mac上，这个仓库位于/Users/michael/learngit。
+
+第二步，通过git init命令把这个目录变成Git可以管理的仓库：
+
+$ git init
+
+要随时掌握工作区的状态，使用git status命令。
+
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容
+
 
 要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
 
