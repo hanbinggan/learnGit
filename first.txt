@@ -6,3 +6,4 @@ I'm chatting with my mother.
 :-<
 h23333
 I still like SVN
+git checkout -b dev   == git branch dev   git checkout dev
